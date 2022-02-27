@@ -9,17 +9,13 @@ const fs = require('fs');
 -                              ARRAYS
 --------------------------------------------------------------------*/ 
 
-const questions = [
+const questions = [ // will be used to refactor prompt questions
   'Project Name: ',
   'Project Description: ',
   'Installation Instructions: ',
   'Usage Information: ',
   'Contribution Guidelines: ',
   'Test Instructions: ',
-];
-
-const answers = [
-
 ];
 
 /*-------------------------------------------------------------------- 
