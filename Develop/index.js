@@ -4,6 +4,7 @@
 
 const inquirer = require('inquirer');
 const fs = require('fs');
+const generateFile = require(''); // CONTINUE HERE: add file that creates file
 
 /*-------------------------------------------------------------------- 
 -                              ARRAYS
@@ -27,7 +28,7 @@ function writeToFile(fileName, data) {
 };
 
 /*-------------------------------------------------------------------- 
--                             APPLICATION
+-                             INIT PROMPTS
 --------------------------------------------------------------------*/ 
 
 const init = () => {
@@ -187,5 +188,8 @@ const init = () => {
 -                          CALL APPLICATION
 --------------------------------------------------------------------*/ 
 
-init();
+init()
+  .then(pageContent => {
+  return generateFile(pageContent);
+  });
 
