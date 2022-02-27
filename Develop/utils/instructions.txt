@@ -78,3 +78,14 @@ THEN I am taken to the corresponding section
 of the README
 
 ------------------------------------------- 
+
+--------------- NEXT STEPS ----------------
+
+- Save user answers in the answer array. (COMPLETE)
+
+- 
+
+
+------------------------------------------- 
+
+[How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
