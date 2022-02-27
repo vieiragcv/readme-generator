@@ -34,7 +34,13 @@ function writeToFile(fileName, data) {
 -                             APPLICATION
 --------------------------------------------------------------------*/ 
 
-const init = () => {
+const init = readMeData => {
+  dataArr = [];
+  console.log(`
+  =================
+    Create ReadMe 
+  =================
+  `);
   return inquirer.prompt([
 
     /* --- QUESTION 1: PROJECT NAME ---*/
@@ -173,7 +179,12 @@ const init = () => {
       }
     }
   ])
-  
+  .then(inputData => {
+    //console.log(inputData);
+    dataArr.push(inputData);
+    console.log(dataArr);
+    return dataArr;
+  });
 };
 
 /*-------------------------------------------------------------------- 
