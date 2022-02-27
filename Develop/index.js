@@ -30,7 +30,7 @@ function writeToFile(fileName, data) {
 -                             APPLICATION
 --------------------------------------------------------------------*/ 
 
-const init = readMeData => {
+const init = () => {
   dataArr = [];
   console.log(`
   =================
