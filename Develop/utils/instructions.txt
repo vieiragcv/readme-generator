@@ -83,7 +83,15 @@ of the README
 
 - Save user answers in the answer array. (COMPLETE)
 
-- 
+- wiretfile method to return readMe content using ${ } for each user data input on the array
+
+- research how to create ".md" file type
+
+- copy markdown syntax on "wirtefile" function
+
+- finalize callback functions like in exercise module 9
+
+- record video
 
 
 ------------------------------------------- 
